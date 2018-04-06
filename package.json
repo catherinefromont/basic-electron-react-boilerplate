@@ -17,6 +17,7 @@
   "license": "MIT",
   "main": "main.js",
   "scripts": {
+    "start": "electron . && webpack --config webpack.build.config.js",
     "prod": "webpack --config webpack.build.config.js && electron --noDevServer .",
     "dev": "webpack-dev-server --hot --host 0.0.0.0 --port 4000 --config=./webpack.dev.config.js",
     "build": "webpack --config webpack.build.config.js",

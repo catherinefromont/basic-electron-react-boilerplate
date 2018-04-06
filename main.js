@@ -18,7 +18,7 @@ if ( process.defaultApp || /[\\/]electron-prebuilt[\\/]/.test(process.execPath) 
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1024, height: 768, show: false
+    width: 1024, height: 768, show: false, icon: path.join(__dirname, 'src/assets/icons/nyriad.png')
   });
 
   // and load the index.html of the app.

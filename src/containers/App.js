@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../assets/css/App.css';
 
-import HelloWorld from '../components/App/HelloWorld';
+import Home from '../components/App/Home';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div>
-        <HelloWorld />
+        <Home />
       </div>
     );
   }
